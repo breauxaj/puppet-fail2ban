@@ -10,8 +10,10 @@ of the box Fail2Ban comes with filters for various services (apache, courier,
 ssh, etc).
 
 Samples
-=======
-
+-------
+```
 include fail2ban
-
+```
+```
 fail2ban::service { 'default': ensure => running, enabled => true }
+```
