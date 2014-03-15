@@ -17,3 +17,11 @@ include fail2ban
 ```
 fail2ban::service { 'default': ensure => running, enabled => true }
 ```
+
+License
+-------
+GPL3
+
+Contact
+-------
+breauxaj AT gmail DOT com
